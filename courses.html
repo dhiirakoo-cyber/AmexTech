@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Courses - Amoo Academy</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header Tag -->
+  <header class="header" id="main-header">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="logo" id="header-logo">
+        <span class="logo-icon">A</span>
+        <span class="logo-text">Amoo<span>Academy</span></span>
+      </a>
+
+      <!-- Pure CSS Mobile Toggle Hamburger Trigger -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" id="menu-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="header-menu">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item active"><a href="courses.html">Courses</a></li>
+        <li class="nav-item"><a href="about.html">About Us</a></li>
+        <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <!-- Action Buttons Desktop -->
+      <div class="nav-actions" id="header-actions">
+        <a href="courses.html" class="btn btn-secondary btn-sm">Explore Courses</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Enroll Now</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Page Header Subtitle Section -->
+  <section class="page-header" id="courses-page-header">
+    <div class="container">
+      <h1 class="page-title">Explore Vetted Masterclasses</h1>
+      <p class="page-desc">Hone critical professional skills in coding, design, color composition, social outreach, support centers, or download complete curriculum e-books.</p>
+    </div>
+  </section>
+
+  <!-- Categories jump links navigation (Pure CSS Anchored Filter) -->
+  <section class="breadcrumbs-bar" id="courses-breadcrumbs">
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li class="breadcrumbs-sep">&rarr;</li>
+        <li class="breadcrumbs-current">Courses Catalog</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Navigation Category Filters -->
+  <section class="section" style="padding-bottom: 0;" id="catalog-filters">
+    <div class="container">
+      <div class="course-filter-container" id="filter-bar">
+        <a href="#all" class="filter-btn active">All Classes</a>
+        <a href="#webdev" class="filter-btn">Web Development</a>
+        <a href="#design" class="filter-btn">Graphic Design</a>
+        <a href="#photo" class="filter-btn">Photo Editing</a>
+        <a href="#video" class="filter-btn">Video Editing</a>
+        <a href="#social" class="filter-btn">Social Media</a>
+        <a href="#contact-training" class="filter-btn">Contact Center</a>
+        <a href="#ebooks" class="filter-btn">E-Books</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Catalog Main Grid -->
+  <section class="section">
+    <div class="container" style="display: flex; flex-direction: column; gap: 60px;">
+
+      <!-- ================= SECTION: WEB DEV ================= -->
+      <div id="webdev" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>💻</span> Web Development Hub
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-web-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-primary course-category-tag">Full-Stack</span>
+              <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=400&q=80" alt="Full Stack Coding Masterclass" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.9 <span>(2.4k)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=fullstack">Ultimate Full-Stack Web Development Course</a></h3>
+              <p class="course-desc">From raw HTML/CSS resets to building and launching modern full-stack web architectures with absolute performance.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 48 hours</div>
+                <div class="course-meta-item">📖 14 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Sarah Connor" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Dr. Sarah Connor</span>
+                </div>
+                <span class="course-price">$99.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-web-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-primary course-category-tag">Responsive UI</span>
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=400&q=80" alt="CSS Grid & Flexbox" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.8 <span>(980)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=cssgrid">Fluid CSS Layouts, Grid Systems & Composability</a></h3>
+              <p class="course-desc">Master grid layout engines, flexbox alignments, responsive media constraints, and modern responsive CSS design paradigms.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 18 hours</div>
+                <div class="course-meta-item">📖 6 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Mark Thorne" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Mark Thorne</span>
+                </div>
+                <span class="course-price">$49.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= SECTION: GRAPHIC DESIGN ================= -->
+      <div id="design" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>🎨</span> Graphic Design Workspace
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-design-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-secondary course-category-tag">Layout</span>
+              <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=400&q=80" alt="Vector Art & Brand Layout" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.8 <span>(1.8k)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=graphic">Professional Graphic Design & Layout Masterclass</a></h3>
+              <p class="course-desc">Master grid layout, typography hierarchies, custom vector assets, logo layouts, and color psychological matrices.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 32 hours</div>
+                <div class="course-meta-item">📖 9 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Mark Thorne" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Mark Thorne</span>
+                </div>
+                <span class="course-price">$84.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-design-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-secondary course-category-tag">Vectors</span>
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&amp;w=400&amp;q=80" alt="Illustrator Vectors" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.7 <span>(840)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=illustrator">Vector Illustration Secrets & Vector Arts</a></h3>
+              <p class="course-desc">Harness digital vector pens, gradients, stylized vector path structures, and custom scalable marketing patterns.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 24 hours</div>
+                <div class="course-meta-item">📖 8 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Sarah Connor" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Dr. Sarah Connor</span>
+                </div>
+                <span class="course-price">$59.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= SECTION: PHOTO EDITING ================= -->
+      <div id="photo" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>📸</span> Photo Editing Studio
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-photo-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-accent course-category-tag">Retouch</span>
+              <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=400&q=80" alt="Lightroom & Photoshop" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.9 <span>(1.5k)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=photoedit">Lightroom & Photoshop Imaging Mastery</a></h3>
+              <p class="course-desc">Master complex image curves, tonal contrasts, skin retouch filters, brush layer masks, and batch editing automation.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 26 hours</div>
+                <div class="course-meta-item">📖 10 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=100&q=80" alt="Alex Rivera" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Alex Rivera</span>
+                </div>
+                <span class="course-price">$74.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-photo-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-accent course-category-tag">Composition</span>
+              <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=400&q=80" alt="RAW composition editing" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.6 <span>(610)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=rawediting">RAW Light Composition & Visual Exposure</a></h3>
+              <p class="course-desc">Tweak shadow compositions, control highlights offset, and maximize digital high-dynamic ranges from high-spec cameras.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 15 hours</div>
+                <div class="course-meta-item">📖 5 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Liza Ward" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Liza Ward</span>
+                </div>
+                <span class="course-price">$39.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= SECTION: VIDEO EDITING ================= -->
+      <div id="video" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>🎬</span> Video Editing Suite
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-video-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-accent course-category-tag">Cinematic</span>
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80" alt="Video Cutting & Sound Alignment" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.7 <span>(920)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=video">Cinematic Video Editing & Sound Synch Secrets</a></h3>
+              <p class="course-desc">Master video transitions, high-impact jump cuts, multi-track timeline layers, pacing rhythms, and high-fidelity audios.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 40 hours</div>
+                <div class="course-meta-item">📖 11 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=100&q=80" alt="Alex Rivera" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Alex Rivera</span>
+                </div>
+                <span class="course-price">$89.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-video-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-accent course-category-tag">VFX</span>
+              <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=400&q=80" alt="Motion Graphics Special Effects" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.8 <span>(710)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=vfx">Advanced VFX, Keyframing & Motion Graphics</a></h3>
+              <p class="course-desc">Build striking title layouts, animate elements smoothly using vector keyframes, apply chroma-key green screens, and add immersive SFX tracks.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 30 hours</div>
+                <div class="course-meta-item">📖 8 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Liza Ward" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Liza Ward</span>
+                </div>
+                <span class="course-price">$79.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= SECTION: SOCIAL MEDIA MANAGEMENT ================= -->
+      <div id="social" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>📈</span> Social Media & Marketing
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-social-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-secondary course-category-tag">Organic</span>
+              <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=400&q=80" alt="Social Media Growth Strategy" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.9 <span>(1.1k)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=socialgrowth">Viral Organic Social Media Growth Strategies</a></h3>
+              <p class="course-desc">Unlock algorithms, script hook styles, schedule content matrix columns, and build high-retention fan bases across networks.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 20 hours</div>
+                <div class="course-meta-item">📖 7 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Sarah Connor" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Dr. Sarah Connor</span>
+                </div>
+                <span class="course-price">$69.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-social-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-secondary course-category-tag">Advertising</span>
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=80" alt="Paid Ads Setup" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.7 <span>(530)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=paidads">Targeted Ads Campaigning & Sales Redirection</a></h3>
+              <p class="course-desc">Setup business account configurations, perform smart audience targeting trials, interpret demographic analytics, and optimize pixels.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 22 hours</div>
+                <div class="course-meta-item">📖 8 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Mark Thorne" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Mark Thorne</span>
+                </div>
+                <span class="course-price">$54.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= SECTION: CONTACT CENTER TRAINING ================= -->
+      <div id="contact-training" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>📞</span> Contact Center Training
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-center-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-primary course-category-tag">Support Care</span>
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80" alt="Contact Center Support Training" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.8 <span>(1.2k)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=contactcenter">High-Performance Support Call & Support Excellence</a></h3>
+              <p class="course-desc">Master client greetings, vocal stabilization methods, phone soft-skills, efficient ticketing, and optimal escalation frameworks.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 25 hours</div>
+                <div class="course-meta-item">📖 6 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Liza Ward" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Liza Ward</span>
+                </div>
+                <span class="course-price">$49.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-center-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-primary course-category-tag">Resolution</span>
+              <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Communications Support Help" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.7 <span>(410)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=difficultclients">De-escalation Hacks & Managing Critical Clients</a></h3>
+              <p class="course-desc">Harness professional empathy guidelines, psychological neutralizing scripts, dispute settlement, and high-pressure composure techniques.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">⏱ 16 hours</div>
+                <div class="course-meta-item">📖 5 Modules</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Mark Thorne" class="instructor-avatar" referrerPolicy="no-referrer">
+                  <span class="instructor-name">Mark Thorne</span>
+                </div>
+                <span class="course-price">$39.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= SECTION: E-BOOKS ================= -->
+      <div id="ebooks" style="scroll-margin-top: 100px;">
+        <div style="border-bottom: 2px solid var(--color-border); padding-bottom: 12px; margin-bottom: 30px;">
+          <h2 style="font-size: 1.75rem; color: var(--color-dark); display: flex; align-items: center; gap: 10px;">
+            <span>📚</span> Premium E-Books Downloads
+          </h2>
+        </div>
+        <div class="course-grid">
+          
+          <div class="course-card" id="c-book-1">
+            <div class="course-img-wrapper">
+              <span class="badge badge-accent course-category-tag">E-Book</span>
+              <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=400&q=80" alt="Webdev ebook" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.9 <span>(3.2k downloads)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=bookweb">The Web Developer Cheat-sheets Handbook</a></h3>
+              <p class="course-desc">A condensed PDF visual index summarizing critical CSS values, grid layouts, TypeScript alignments, and layout templates.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">📁 240 Pages</div>
+                <div class="course-meta-item">💾 PDF & EPUB</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <span class="instructor-name">By Sarah Connor</span>
+                </div>
+                <span class="course-price free">FREE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card" id="c-book-2">
+            <div class="course-img-wrapper">
+              <span class="badge badge-accent course-category-tag">E-Book</span>
+              <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=400&q=80" alt="Design ebook" referrerPolicy="no-referrer">
+            </div>
+            <div class="course-content">
+              <div class="course-header">
+                <span class="course-rating">★ 4.8 <span>(1.9k downloads)</span></span>
+              </div>
+              <h3 class="course-title"><a href="course-details.html?course=bookdesign">Graphic Layout Grid Matrices & Vectors Guide</a></h3>
+              <p class="course-desc">Deep dive into physical and responsive layout ratios, logo geometric blueprints, drawing paths, and color harmony systems.</p>
+              <div class="course-meta">
+                <div class="course-meta-item">📁 185 Pages</div>
+                <div class="course-meta-item">💾 PDF Format</div>
+              </div>
+              <div class="course-footer">
+                <div class="course-instructor">
+                  <span class="instructor-name">By Mark Thorne</span>
+                </div>
+                <span class="course-price">$14.99</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Responsive Footer -->
+  <footer class="footer" id="main-footer">
+    <div class="container">
+      
+      <!-- Footer Columns -->
+      <div class="footer-main" id="footer-cols">
+        
+        <!-- Company Column Info -->
+        <div class="footer-col-brand" id="footer-brand-col">
+          <a href="index.html" class="logo footer-logo">
+            <span class="logo-icon">A</span>
+            <span class="logo-text">Amoo<span>Academy</span></span>
+          </a>
+          <p class="footer-desc">Empowering worldwide learners with vetted professional curriculums, interactive video labs, and verified vocational certificates.</p>
+          
+          <div class="footer-socials" id="footer-social-wrapper">
+            <a href="#" class="social-link" title="Follow us on Facebook">f</a>
+            <a href="#" class="social-link" title="Follow us on Twitter">t</a>
+            <a href="#" class="social-link" title="Follow us on Instagram">i</a>
+            <a href="#" class="social-link" title="Follow us on LinkedIn">in</a>
+          </div>
+        </div>
+
+        <!-- Links Column 1 -->
+        <div class="footer-col" id="footer-links-col">
+          <h4 class="footer-title">Popular Hubs</h4>
+          <ul class="footer-links">
+            <li><a href="courses.html">Web Development</a></li>
+            <li><a href="courses.html">Graphic Design</a></li>
+            <li><a href="courses.html">Photo & Video Editing</a></li>
+            <li><a href="courses.html">Contact Center Training</a></li>
+            <li><a href="courses.html">E-Books Downloads</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 2 -->
+        <div class="footer-col" id="footer-company-col">
+          <h4 class="footer-title">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Our Agency</a></li>
+            <li><a href="about.html">Mission & Vision</a></li>
+            <li><a href="about.html">Vetted Instructors</a></li>
+            <li><a href="contact.html">Send a Message</a></li>
+            <li><a href="index.html#testimonials">Success Stories</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 3 (Direct Contact details) -->
+        <div class="footer-col" id="footer-contact-col">
+          <h4 class="footer-title">Direct Contact</h4>
+          <ul class="footer-contact-info">
+            <li><span>📍</span> 456 Knowledge Boulevard, Suite 100, San Francisco, CA</li>
+            <li><span>📞</span> +1 (555) 722-3369</li>
+            <li><span>✉️</span> support@amooacademy.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar -->
+      <div class="footer-bottom">
+        <p class="footer-copyright" id="footer-copy-text">&copy; 2026 Amoo Academy. All human rights reserved.</p>
+        <ul class="footer-legal-links" id="footer-legal-panel">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Setup</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

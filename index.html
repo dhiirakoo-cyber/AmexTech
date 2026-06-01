@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amoo Academy - Modern Educational E-Learning Platform</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header Tag -->
+  <header class="header" id="main-header">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="logo" id="header-logo">
+        <span class="logo-icon">A</span>
+        <span class="logo-text">Amoo<span>Academy</span></span>
+      </a>
+
+      <!-- Pure CSS Mobile Toggle Hamburger Trigger -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" id="menu-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="header-menu">
+        <li class="nav-item active"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="courses.html">Courses</a></li>
+        <li class="nav-item"><a href="about.html">About Us</a></li>
+        <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <!-- Action Buttons Desktop -->
+      <div class="nav-actions" id="header-actions">
+        <a href="courses.html" class="btn btn-secondary btn-sm">Explore Courses</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Enroll Now</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home-hero">
+    <div class="container hero-grid">
+      
+      <!-- Hero Content Column -->
+      <div class="hero-content" id="hero-left">
+        <span class="hero-intro">🎓 Infinite Knowledge, Anytime</span>
+        <h1 class="hero-title">Unlock Your Potential with <span>Amoo Academy</span></h1>
+        <p class="hero-desc">Discover interactive online masterclasses in video editing, design, coding, management, and training. Curated by industry veterans to empower your career growth.</p>
+        
+        <div class="hero-btns">
+          <a href="courses.html" class="btn btn-primary">Browse Courses</a>
+          <a href="about.html" class="btn btn-secondary">Learn More</a>
+        </div>
+
+        <div class="hero-stats" id="hero-stats-panel">
+          <div class="stat-item">
+            <h4>15k+</h4>
+            <p>Active Students</p>
+          </div>
+          <div class="stat-item">
+            <h4>120+</h4>
+            <p>Specialist Courses</p>
+          </div>
+          <div class="stat-item">
+            <h4>4.9★</h4>
+            <p>Average Rating</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Column -->
+      <div class="hero-illustration" id="hero-right">
+        <!-- Floating Visual Widgets -->
+        <div class="float-card float-card-1" id="floatWidget1">
+          <span class="float-icon">💡</span>
+          <div class="float-text">
+            <h5>Flexible Learning</h5>
+            <p>100% Online & Self-Paced</p>
+          </div>
+        </div>
+
+        <div class="float-card float-card-2" id="floatWidget2">
+          <span class="float-icon float-icon-yellow">🏆</span>
+          <div class="float-text">
+            <h5>Authorized Certs</h5>
+            <p>Shareable verified badges</p>
+          </div>
+        </div>
+
+        <div class="hero-circle-bg"></div>
+        <div class="hero-image-wrapper">
+          <!-- Premium educational image styling mockup -->
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Students learning together" referrerPolicy="no-referrer">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Educational Categories Grid (Bento Style) -->
+  <section class="section" id="featured-categories">
+    <div class="container">
+      
+      <div class="section-header" id="cats-header">
+        <span class="section-subtitle">Top Categories</span>
+        <h2 class="section-title">Explore Global Skill Hubs</h2>
+        <p class="section-desc">Jump into professionally engineered specializations designed to fit current economic and technical market demands.</p>
+      </div>
+
+      <div class="category-grid" id="categories-container">
+        
+        <!-- Category Card 1 -->
+        <div class="category-card" id="cat-webdev">
+          <div class="category-icon category-icon-1">💻</div>
+          <h3>Web Development</h3>
+          <p>Learn core HTML, CSS, JavaScript, React, and server-side engineering to deploy production-ready code.</p>
+          <a href="courses.html?cat=webdev" class="category-link">View Courses &rarr;</a>
+        </div>
+
+        <!-- Category Card 2 -->
+        <div class="category-card" id="cat-design">
+          <div class="category-icon category-icon-2">🎨</div>
+          <h3>Graphic Design</h3>
+          <p>Master visual identity design, composition, color theory, and vector illustration techniques.</p>
+          <a href="courses.html?cat=design" class="category-link">View Courses &rarr;</a>
+        </div>
+
+        <!-- Category Card 3 -->
+        <div class="category-card" id="cat-photo">
+          <div class="category-icon category-icon-3">📸</div>
+          <h3>Photo Editing</h3>
+          <p>Polish your imaging edits, lighting curves, RAW tuning, and professional retouch layouts.</p>
+          <a href="courses.html?cat=photo" class="category-link">View Courses &rarr;</a>
+        </div>
+
+        <!-- Category Card 4 -->
+        <div class="category-card" id="cat-video">
+          <div class="category-icon category-icon-4">🎬</div>
+          <h3>Video Editing</h3>
+          <p>Cut storytelling frames, synch timelines, implement color grading, and export cinematic reels.</p>
+          <a href="courses.html?cat=video" class="category-link">View Courses &rarr;</a>
+        </div>
+
+        <!-- Category Card 5 -->
+        <div class="category-card" id="cat-social">
+          <div class="category-icon category-icon-5">📈</div>
+          <h3>Social Media</h3>
+          <p>Grow organic viral tracks, set up business managers, analyze data streams, and boost conversions.</p>
+          <a href="courses.html?cat=social" class="category-link">View Courses &rarr;</a>
+        </div>
+
+        <!-- Category Card 6 -->
+        <div class="category-card" id="cat-ebooks">
+          <div class="category-icon category-icon-6">📚</div>
+          <h3>Premium E-Books</h3>
+          <p>Deep dive into condensed, structured booklets packed with code cheatsheets and vector guidelines.</p>
+          <a href="courses.html?cat=books" class="category-link">View Books &rarr;</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Featured Courses Section -->
+  <section class="section section-light" id="featured-courses">
+    <div class="container">
+      
+      <div class="section-header" id="courses-header">
+        <span class="section-subtitle">Trending Lectures</span>
+        <h2 class="section-title">Become Class-A Certified</h2>
+        <p class="section-desc">Access high-definition video masterclasses filled with dynamic exercises and real-world project portfolios.</p>
+      </div>
+
+      <div class="course-grid" id="courses-grid-cards">
+        
+        <!-- Course Entry 1 -->
+        <div class="course-card" id="course-card-web">
+          <div class="course-img-wrapper">
+            <span class="badge badge-primary course-category-tag">Web Dev</span>
+            <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=400&q=80" alt="Full Stack Coding Masterclass" referrerPolicy="no-referrer">
+          </div>
+          <div class="course-content">
+            <div class="course-header">
+              <span class="course-rating">★ 4.9 <span>(2.4k reviews)</span></span>
+            </div>
+            <h3 class="course-title"><a href="course-details.html?course=fullstack">Ultimate Full-Stack Web Development Course</a></h3>
+            <p class="course-desc">From raw HTML/CSS resets to building and launching modern full-stack web architectures with absolute performance.</p>
+            <div class="course-meta">
+              <div class="course-meta-item">⏱ 48 hours</div>
+              <div class="course-meta-item">📖 14 Modules</div>
+            </div>
+            <div class="course-footer">
+              <div class="course-instructor">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Sarah Connor" class="instructor-avatar" referrerPolicy="no-referrer">
+                <span class="instructor-name">Dr. Sarah Connor</span>
+              </div>
+              <span class="course-price">$99.99</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Entry 2 -->
+        <div class="course-card" id="course-card-design">
+          <div class="course-img-wrapper">
+            <span class="badge badge-secondary course-category-tag">Design</span>
+            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=400&q=80" alt="Vector Art & Brand Layout" referrerPolicy="no-referrer">
+          </div>
+          <div class="course-content">
+            <div class="course-header">
+              <span class="course-rating">★ 4.8 <span>(1.8k reviews)</span></span>
+            </div>
+            <h3 class="course-title"><a href="course-details.html?course=graphic">Professional Graphic Design & Layout Masterclass</a></h3>
+            <p class="course-desc">Master grid layout, typography hierarchies, custom vector assets, logo layouts, and color psychological matrices.</p>
+            <div class="course-meta">
+              <div class="course-meta-item">⏱ 32 hours</div>
+              <div class="course-meta-item">📖 9 Modules</div>
+            </div>
+            <div class="course-footer">
+              <div class="course-instructor">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Mark Thorne" class="instructor-avatar" referrerPolicy="no-referrer">
+                <span class="instructor-name">Mark Thorne</span>
+              </div>
+              <span class="course-price">$84.99</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Entry 3 -->
+        <div class="course-card" id="course-card-video">
+          <div class="course-img-wrapper">
+            <span class="badge badge-accent course-category-tag">Cinematic</span>
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80" alt="Video Cutting & Sound Alignment" referrerPolicy="no-referrer">
+          </div>
+          <div class="course-content">
+            <div class="course-header">
+              <span class="course-rating">★ 4.7 <span>(920 reviews)</span></span>
+            </div>
+            <h3 class="course-title"><a href="course-details.html?course=video">Cinematic Video Editing & Sound Synch Secrets</a></h3>
+            <p class="course-desc">Master video transitions, high-impact jump cuts, multi-track timeline layers, pacing rhythms, and high-fidelity audios.</p>
+            <div class="course-meta">
+              <div class="course-meta-item">⏱ 40 hours</div>
+              <div class="course-meta-item">📖 11 Modules</div>
+            </div>
+            <div class="course-footer">
+              <div class="course-instructor">
+                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=100&q=80" alt="Alex Rivera" class="instructor-avatar" referrerPolicy="no-referrer">
+                <span class="instructor-name">Alex Rivera</span>
+              </div>
+              <span class="course-price">$89.99</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="courses.html" class="btn btn-secondary">Explore All 120+ Classes</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Student Testimonials Slider (Pure CSS Grid Layout) -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      
+      <div class="section-header" id="reviews-header">
+        <span class="section-subtitle">Student Support</span>
+        <h2 class="section-title">Loved by Thousands Worldwide</h2>
+        <p class="section-desc">Read how graduating from Amoo Academy transformed actual careers into successful pathways.</p>
+      </div>
+
+      <div class="testimonial-grid" id="testimonials-grid-box">
+        
+        <!-- Review 1 -->
+        <div class="testimonial-card" id="rev-1">
+          <span class="testimonial-quote-icon">“</span>
+          <p class="testimonial-text">"Before Amoo Academy, my video editing felt sluggish. The pacing secrets in the masterclass let me secure real freelance contracts within a month of completion."</p>
+          <div class="testimonial-user">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80" alt="Clara Jenkins" class="testimonial-avatar" referrerPolicy="no-referrer">
+            <div class="user-info">
+              <h4>Clara Jenkins</h4>
+              <p>Freelance Editor</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-card" id="rev-2">
+          <span class="testimonial-quote-icon">“</span>
+          <p class="testimonial-text">"The Web Development module was immaculate. Zero fluff, absolute precision. Dr. Sarah explains extremely complex concepts like microstate management effortlessly."</p>
+          <div class="testimonial-user">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt="David Miller" class="testimonial-avatar" referrerPolicy="no-referrer">
+            <div class="user-info">
+              <h4>David Miller</h4>
+              <p>Frontend Engineer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-card" id="rev-3">
+          <span class="testimonial-quote-icon">“</span>
+          <p class="testimonial-text">"Amoo Academy is spectacular! The graphic layout guidelines helped us redesign our branding vector files. Our sales indices jumped by almost 35%! Worth every dollar."</p>
+          <div class="testimonial-user">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=80&q=80" alt="Yasmine Patel" class="testimonial-avatar" referrerPolicy="no-referrer">
+            <div class="user-info">
+              <h4>Yasmine Patel</h4>
+              <p>Creative Lead</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Engaging Call to Action Banner -->
+  <section class="section section-light" id="cta-section">
+    <div class="container">
+      <div class="cta-banner" id="home-cta-banner">
+        <div class="cta-radial-bg"></div>
+        <div class="cta-radial-bg-2"></div>
+        <div class="cta-content">
+          <span class="cta-tag">Exclusive 30% Off Season Starter</span>
+          <h2 class="cta-title">Ready to Elevate Your Skill Horizon?</h2>
+          <p class="cta-desc">Gain lifetime access to all learning tracks, interactive discussion forums, expert project reviews, and verified certifications.</p>
+          <div class="cta-btns">
+            <a href="courses.html" class="btn btn-primary btn-outline">Join Amoo Academy Today</a>
+            <a href="contact.html" class="btn btn-secondary btn-dark">Get Free Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Responsive Footer -->
+  <footer class="footer" id="main-footer">
+    <div class="container">
+      
+      <!-- Footer Columns -->
+      <div class="footer-main" id="footer-cols">
+        
+        <!-- Company Column Info -->
+        <div class="footer-col-brand" id="footer-brand-col">
+          <a href="index.html" class="logo footer-logo">
+            <span class="logo-icon">A</span>
+            <span class="logo-text">Amoo<span>Academy</span></span>
+          </a>
+          <p class="footer-desc">Empowering worldwide learners with vetted professional curriculums, interactive video labs, and verified vocational certificates.</p>
+          
+          <div class="footer-socials" id="footer-social-wrapper">
+            <a href="#" class="social-link" title="Follow us on Facebook">f</a>
+            <a href="#" class="social-link" title="Follow us on Twitter">t</a>
+            <a href="#" class="social-link" title="Follow us on Instagram">i</a>
+            <a href="#" class="social-link" title="Follow us on LinkedIn">in</a>
+          </div>
+        </div>
+
+        <!-- Links Column 1 -->
+        <div class="footer-col" id="footer-links-col">
+          <h4 class="footer-title">Popular Hubs</h4>
+          <ul class="footer-links">
+            <li><a href="courses.html">Web Development</a></li>
+            <li><a href="courses.html">Graphic Design</a></li>
+            <li><a href="courses.html">Photo & Video Editing</a></li>
+            <li><a href="courses.html">Contact Center Training</a></li>
+            <li><a href="courses.html">E-Books Downloads</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 2 -->
+        <div class="footer-col" id="footer-company-col">
+          <h4 class="footer-title">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Our Agency</a></li>
+            <li><a href="about.html">Mission & Vision</a></li>
+            <li><a href="about.html">Vetted Instructors</a></li>
+            <li><a href="contact.html">Send a Message</a></li>
+            <li><a href="index.html#testimonials">Success Stories</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 3 (Direct Contact details) -->
+        <div class="footer-col" id="footer-contact-col">
+          <h4 class="footer-title">Direct Contact</h4>
+          <ul class="footer-contact-info">
+            <li><span>📍</span> 456 Knowledge Boulevard, Suite 100, San Francisco, CA</li>
+            <li><span>📞</span> +1 (555) 722-3369</li>
+            <li><span>✉️</span> support@amooacademy.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar -->
+      <div class="footer-bottom">
+        <p class="footer-copyright" id="footer-copy-text">&copy; 2026 Amoo Academy. All human rights reserved.</p>
+        <ul class="footer-legal-links" id="footer-legal-panel">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Setup</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

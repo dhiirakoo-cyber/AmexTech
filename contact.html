@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Amoo Academy</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header Tag -->
+  <header class="header" id="main-header">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="logo" id="header-logo">
+        <span class="logo-icon">A</span>
+        <span class="logo-text">Amoo<span>Academy</span></span>
+      </a>
+
+      <!-- Pure CSS Mobile Toggle Hamburger Trigger -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" id="menu-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu" id="header-menu">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="courses.html">Courses</a></li>
+        <li class="nav-item"><a href="about.html">About Us</a></li>
+        <li class="nav-item active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <!-- Action Buttons Desktop -->
+      <div class="nav-actions" id="header-actions">
+        <a href="courses.html" class="btn btn-secondary btn-sm">Explore Courses</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Enroll Now</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Page Header Subtitle Section -->
+  <section class="page-header" id="contact-page-header">
+    <div class="container">
+      <h1 class="page-title">We Are Here to Assist You</h1>
+      <p class="page-desc">Have a query regarding syllabi, customized business training, or e-book licenses? Send us a message and our support team will reply within 12 hours.</p>
+    </div>
+  </section>
+
+  <!-- Breadcrumbs Area -->
+  <section class="breadcrumbs-bar" id="contact-breadcrumbs">
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li class="breadcrumbs-sep">&rarr;</li>
+        <li class="breadcrumbs-current">Contact Support</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Main Contact Details & Form Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid" id="contact-main-grid">
+        
+        <!-- Left Side: Contact Information Cards -->
+        <div class="contact-info-panel" id="contact-details-col">
+          
+          <!-- Card Email -->
+          <div class="contact-info-card" id="contact-info-email">
+            <div class="contact-card-icon">✉️</div>
+            <div class="contact-card-body">
+              <h4>Email Support</h4>
+              <p style="font-weight: 600; color: var(--color-dark); margin: 4px 0;">support@amooacademy.com</p>
+              <p>For course syllabi questions & account issues.</p>
+              <p style="margin-top: 8px; font-weight: 500; font-size: 0.8rem; color: var(--color-primary);">Response within 12 hours</p>
+            </div>
+          </div>
+
+          <!-- Card Phone -->
+          <div class="contact-info-card" id="contact-info-phone">
+            <div class="contact-card-icon">📞</div>
+            <div class="contact-card-body">
+              <h4>Call Helpline</h4>
+              <p style="font-weight: 600; color: var(--color-dark); margin: 4px 0;">+1 (555) 722-3369</p>
+              <p>Available Mon - Fri, 9:00 AM - 6:00 PM PST.</p>
+              <p style="margin-top: 8px; font-weight: 500; font-size: 0.8rem; color: var(--color-secondary);">Direct Student Help Toll-Free</p>
+            </div>
+          </div>
+
+          <!-- Card Address -->
+          <div class="contact-info-card" id="contact-info-addr">
+            <div class="contact-card-icon">📍</div>
+            <div class="contact-card-body">
+              <h4>Corporate Headquarters</h4>
+              <p style="font-weight: 600; color: var(--color-dark); margin: 4px 0;">456 Knowledge Boulevard</p>
+              <p>Suite 100, San Francisco, CA 94107</p>
+              <p style="margin-top: 8px; font-weight: 500; font-size: 0.8rem; color: var(--color-muted);">In-person office visits by slot appointment</p>
+            </div>
+          </div>
+
+          <!-- Social Box panel -->
+          <div class="contact-social-box" id="contact-socials-box">
+            <h4>Follow Our Channels</h4>
+            <p style="font-size: 0.85rem; color: var(--color-muted); margin-bottom: 12px;">Get daily visual cheat-sheets, code challenges, and announcements.</p>
+            <div class="contact-socials-list">
+              <a href="#" class="social-link">f</a>
+              <a href="#" class="social-link">t</a>
+              <a href="#" class="social-link">i</a>
+              <a href="#" class="social-link">in</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Side: Contact Form (Direct Frontend to connect to Supabase later) -->
+        <div class="contact-form-box" id="contact-form-wrapper">
+          <h2 class="contact-form-title">Send Us a Direct Message</h2>
+          <p class="contact-form-desc">Fill in your information below. This form integrates directly with secure remote endpoints.</p>
+          
+          <!-- Mockup Form only - CSS styles styled purely -->
+          <form action="#" method="POST" onsubmit="return false;" id="supabase-contact-form">
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Your Full Name</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="E.g. Sarah Connor" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="E.g. sarah@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="course-interest">Academic Track of Interest</label>
+              <select id="course-interest" class="form-control" style="background-image: none;" required>
+                <option value="">-- Please Select Course Track --</option>
+                <option value="webdev">Web Development & Coding</option>
+                <option value="design">Graphic Design & Vectors</option>
+                <option value="photo">Photo Editing & Photoshop</option>
+                <option value="video">Video Editing & VFX cinematic</option>
+                <option value="social">Social Media Organic Growth</option>
+                <option value="center">Contact Center Customer Care</option>
+                <option value="books">Curriculum E-Books downloads</option>
+                <option value="query">General Institutional Query</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Message Subject</label>
+              <input type="text" id="contact-subject" class="form-control" placeholder="E.g. Pricing options or custom business plans" required>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 30px;">
+              <label for="contact-message">Write Your Inquiry</label>
+              <textarea id="contact-message" class="form-control" placeholder="State your requirements, question, or custom corporate requests in detail..." required></textarea>
+            </div>
+
+            <!-- Submit Button Form UI -->
+            <button type="submit" class="btn btn-primary" style="width: 100%; border: none;">Submit Message to Queue &rarr;</button>
+
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map Block Placeholder below -->
+      <div class="contact-map-sec" id="office-location-map">
+        <div style="margin-bottom: 25px; text-align: center;">
+          <h3 style="font-size: 1.5rem; color: var(--color-dark); margin-bottom: 5px;">Our Location Map</h3>
+          <p style="color: var(--color-muted); font-size: 0.9rem;">Find us in the heart of San Francisco's technology center district.</p>
+        </div>
+        <div class="map-embed-wrapper" id="office-map-visual">
+          <div class="map-overlay-card">
+            <h5>Amoo Academy Inc.</h5>
+            <p>456 Knowledge Boulevard, Suite 100, San Francisco, CA</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Responsive Footer -->
+  <footer class="footer" id="main-footer">
+    <div class="container">
+      
+      <!-- Footer Columns -->
+      <div class="footer-main" id="footer-cols">
+        
+        <!-- Company Column Info -->
+        <div class="footer-col-brand" id="footer-brand-col">
+          <a href="index.html" class="logo footer-logo">
+            <span class="logo-icon">A</span>
+            <span class="logo-text">Amoo<span>Academy</span></span>
+          </a>
+          <p class="footer-desc">Empowering worldwide learners with vetted professional curriculums, interactive video labs, and verified vocational certificates.</p>
+          
+          <div class="footer-socials" id="footer-social-wrapper">
+            <a href="#" class="social-link" title="Follow us on Facebook">f</a>
+            <a href="#" class="social-link" title="Follow us on Twitter">t</a>
+            <a href="#" class="social-link" title="Follow us on Instagram">i</a>
+            <a href="#" class="social-link" title="Follow us on LinkedIn">in</a>
+          </div>
+        </div>
+
+        <!-- Links Column 1 -->
+        <div class="footer-col" id="footer-links-col">
+          <h4 class="footer-title">Popular Hubs</h4>
+          <ul class="footer-links">
+            <li><a href="courses.html">Web Development</a></li>
+            <li><a href="courses.html">Graphic Design</a></li>
+            <li><a href="courses.html">Photo & Video Editing</a></li>
+            <li><a href="courses.html">Contact Center Training</a></li>
+            <li><a href="courses.html">E-Books Downloads</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 2 -->
+        <div class="footer-col" id="footer-company-col">
+          <h4 class="footer-title">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Our Agency</a></li>
+            <li><a href="about.html">Mission & Vision</a></li>
+            <li><a href="about.html">Vetted Instructors</a></li>
+            <li><a href="contact.html">Send a Message</a></li>
+            <li><a href="index.html#testimonials">Success Stories</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Column 3 (Direct Contact details) -->
+        <div class="footer-col" id="footer-contact-col">
+          <h4 class="footer-title">Direct Contact</h4>
+          <ul class="footer-contact-info">
+            <li><span>📍</span> 456 Knowledge Boulevard, Suite 100, San Francisco, CA</li>
+            <li><span>📞</span> +1 (555) 722-3369</li>
+            <li><span>✉️</span> support@amooacademy.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar -->
+      <div class="footer-bottom">
+        <p class="footer-copyright" id="footer-copy-text">&copy; 2026 Amoo Academy. All human rights reserved.</p>
+        <ul class="footer-legal-links" id="footer-legal-panel">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Setup</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
