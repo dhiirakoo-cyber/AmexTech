@@ -1913,3 +1913,61 @@ textarea.form-control {
     display: none; /* Hide floating widgets on mobile screens */
   }
 }
+
+/* Clickable Quick Contact Buttons */
+.contact-actions-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btn-contact-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: var(--transition-normal);
+  flex: 1 1 200px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+}
+
+.btn-contact-tel {
+  background-color: var(--color-primary);
+  color: var(--color-white) !important;
+}
+
+.btn-contact-tel:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-contact-email {
+  background-color: var(--color-secondary);
+  color: var(--color-white) !important;
+}
+
+.btn-contact-email:hover {
+  background-color: #0d5c56;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-contact-whatsapp {
+  background-color: #25d366;
+  color: var(--color-white) !important;
+}
+
+.btn-contact-whatsapp:hover {
+  background-color: #20ba5a;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
